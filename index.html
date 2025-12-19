@@ -2,16 +2,23 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>To-Do App</title>
+  <title>To-Do App Moderna</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Lista de Tareas</h1>
 
-<input id="taskInput" placeholder="Escribe una tarea">
-<button onclick="addTask()">Agregar</button>
+<div class="container">
+  <h1>✔ Lista de Tareas</h1>
 
-<ul id="taskList"></ul>
+  <div class="input-box">
+    <input id="taskInput" placeholder="Escribe una tarea...">
+    <button onclick="addTask()">Agregar</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <p class="footer">Guardado automáticamente en tu navegador</p>
+</div>
 
 <script src="app.js"></script>
 </body>
